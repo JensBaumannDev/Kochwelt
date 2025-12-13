@@ -157,6 +157,12 @@ footer ul {
   margin: 0;
 }
 
+.footer-socials img:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 8px #ffffff76, 0 0 20px #ffffff, 0 0 10px #ffffff;
+  transition: 0.3s ease;
+}
+
 .footer-inline {
   background-color: white;
   height: 180px;
