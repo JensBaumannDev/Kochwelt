@@ -129,6 +129,13 @@ footer {
   text-decoration: none;
 }
 
+.footer-socials img{
+width: 35px;
+height: auto;
+margin-left: 32px;
+margin-top: 16px;
+}
+
 .footer-inline{
   background-color: white;
   height: 180px;
