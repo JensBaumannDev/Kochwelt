@@ -1,0 +1,8 @@
+Text nav links: #403b3b
+Footer: #403b3b
+
+Text und Überschriften: #000000
+
+grün (button, hovertext): #008000
+
+leichtes grau für Hintegrund: #efefef
