@@ -14,7 +14,7 @@ header {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1000; /* damit er über allem liegt */
   background-color: rgba(255, 255, 255, 0.868);
 }
 
@@ -29,7 +29,7 @@ header {
 nav {
   padding-left: 0;
   margin-right: 8%;
-  display: flex;
+  display: flex; 
   height: 100%;
 }
 
@@ -39,6 +39,7 @@ ul {
   align-items: flex-end;
   list-style-type: none;
 }
+
 
 ul a {
   text-decoration: none;
@@ -54,15 +55,15 @@ ul a:hover {
   border-bottom: 4px solid #008000;
 }
 
-/*
-li a.link-active {
-  color: #008000;
-}*/
 
-li a {
+li a.link-active {
+  border-bottom: 4px solid #008000;
+}
+
+li a{
   padding-bottom: 13px;
 }
 
-main {
+main{
   background-color: #000000;
 }
