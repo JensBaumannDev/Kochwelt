@@ -8,14 +8,25 @@ body {
 header {
   width: auto;
   height: 110px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: rgba(255, 255, 255, 0.868);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
   z-index: 1000; /* damit er über allem liegt */
-  background-color: rgba(255, 255, 255, 0.868);
+  display: flex;
+  justify-content: center;
+}
+
+.header-inner {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 .logo {
@@ -29,7 +40,7 @@ header {
 nav {
   padding-left: 0;
   margin-right: 8%;
-  display: flex; 
+  display: flex;
   height: 100%;
 }
 
@@ -39,7 +50,6 @@ ul {
   align-items: flex-end;
   list-style-type: none;
 }
-
 
 ul a {
   text-decoration: none;
@@ -55,15 +65,14 @@ ul a:hover {
   border-bottom: 4px solid #008000;
 }
 
-
 li a.link-active {
   border-bottom: 4px solid #008000;
 }
 
-li a{
+li a {
   padding-bottom: 13px;
 }
 
-main{
+main {
   background-color: #000000;
 }
