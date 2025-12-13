@@ -124,3 +124,17 @@ footer {
   color: white;
   font-size: 18px;
 }
+
+.footer-socials a{
+  text-decoration: none;
+}
+
+.footer-inline{
+  background-color: white;
+  height: 180px;
+  width: 1px;
+}
+
+.footer-newsletter{
+  
+}
