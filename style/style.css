@@ -96,6 +96,9 @@ li a {
 footer {
   min-height: 300px;
   background-color: #403b3b;
+  display:flex;
+  justify-content: center;
+align-items: center;
 }
 
 .footer-inner{
@@ -106,6 +109,8 @@ footer {
   display:flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 .footer-inner h2 {
@@ -147,4 +152,8 @@ margin-top: 16px;
   border-radius: 16px;
   height: auto;
   padding-left: 42px;
+}
+
+.footer-logo img{
+  height: 80px;
 }
