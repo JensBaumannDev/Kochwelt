@@ -135,6 +135,12 @@ footer {
   width: 1px;
 }
 
-.footer-newsletter{
-  
+.footer-logo{
+  background-color: white;
+  border-radius: 16px;
+  width: auto;
+  height: auto;
+  padding-left: 42px;
 }
+
+.footer-newsletter
