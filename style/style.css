@@ -75,25 +75,52 @@ li a {
 }
 
 /* Rezepte */
-.rezept-des-tages-container{
-background-color: #ffffff;
-height: 160px;
+.rezept-des-tages-container {
+  background-color: #ffffff;
+  height: 160px;
 }
 /* LUST AU WAS NEUES  */
-.lust-auf-was-neues-container{
-background-color: #EFEFEF;
-height: 160px;
+.lust-auf-was-neues-container {
+  background-color: #efefef;
+  height: 160px;
 }
 
 /* WAS IST BESSER */
-.was-ist-besser-container{
-background-color: #ffffff;
-height:160px;
+.was-ist-besser-container {
+  background-color: #ffffff;
+  height: 160px;
 }
 
 /* Footer */
 
 footer {
   min-height: 300px;
-  background-color: #403B3B;
+  background-color: #403b3b;
+}
+
+.footer-inner{
+  width: 100%;
+  height: 300px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-inner h2 {
+  color: white;
+  font-weight: 200;
+  font-size: 56px;
+}
+
+.footer-inner h3{
+  color: white;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.footer-inner li a {
+  color: white;
+  font-size: 18px;
 }
