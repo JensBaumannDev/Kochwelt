@@ -52,9 +52,7 @@
         </div>
 
         <div class="footer-inline"></div>
-        <form class="footer-newsletter">
-          <input required type="text" placeholder="Email adress" />
-          <button class="button button-footer">Abonnieren</button>
+        <form action="/newsletter" method="post" class="newsletter-form">
           <div class="footer-socials">
             <a
               href="https://www.facebook.com/"
@@ -78,6 +76,13 @@
               <img src="./img/pinterest-logo.png" alt="Pinterest" />
             </a>
           </div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Deine Email-Adresse"
+            required
+          />
+          <button type="submit"><p>Abonieren</p></button>
         </form>
       </div>
     </footer>
