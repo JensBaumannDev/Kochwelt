@@ -106,3 +106,5 @@ opacity: 0;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+@media (max-width: 767px) {
+}
