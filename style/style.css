@@ -104,7 +104,7 @@ li a {
   background-color: #efefef;
   display: flex;
   flex-direction: column;
-  border-radius: 12px;
+ 
   align-items: center;
   height: 400px;
   justify-content: center;
@@ -118,7 +118,7 @@ li a {
     display: flex;
     flex-direction: column-reverse;
     gap: 8px;
-   border-radius: 12px;
+  
    text-align: center;
    text-decoration: none;
    color: black;
