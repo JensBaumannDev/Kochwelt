@@ -212,6 +212,27 @@ li a {
   z-index: -1;
 }
 
+.newsletter-container-inner{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+  .newsletter-container-inner h2{
+    color: white;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 28px;
+  }
+
+  .newsletter-container-inner p{
+ color: white;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 16px;
+    }
+
 
 
 /* Footer */
