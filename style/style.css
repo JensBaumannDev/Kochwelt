@@ -130,7 +130,6 @@ li a {
     display: flex;
     flex-direction: column-reverse;
     gap: 8px;
-  
    text-align: center;
    text-decoration: none;
    color: black;
@@ -142,6 +141,12 @@ li a {
      height: 250px;
      width: 250px;
      object-fit: cover;
+     transition: all 1s ease;
+}
+
+.quickLink img:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.55);
 }
 
 /* WAS IST BESSER */
