@@ -78,8 +78,20 @@ li a {
 /* Rezepte */
 .rezept-des-tages-container {
   background-color: #ffffff;
-  height: 160px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1440px;
+  
 }
+
+.rezept-des-tages-container img{
+  border-radius: 12px;
+}
+
+
+
 /* LUST AU WAS NEUES  */
 .lust-auf-was-neues-container {
   background-color: #efefef;
