@@ -234,7 +234,7 @@ margin: 0;
 .newsletter-container-button{
   display: flex;
   gap: 3px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .newsletter-container-inner h2 {
   color: white;
