@@ -94,12 +94,15 @@ li a {
  
 .rezeptvorstellung-text{
   margin-left: 30px;
-  text-align: justify;
 }
 
 .rezept-des-tages-container img{
   border-radius: 12px;
   height: 250px;
+}
+
+.rezeptvorstellung-text p{
+  text-align: justify;
 }
 
 /* LUST AU WAS NEUES  */
