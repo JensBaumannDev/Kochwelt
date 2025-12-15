@@ -205,7 +205,7 @@ li a {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 50px;
 }
 
 .newsletter-container::before {
@@ -234,7 +234,7 @@ margin: 0;
 .newsletter-container-button{
   display: flex;
   gap: 3px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .newsletter-container-inner h2 {
   color: white;
@@ -247,7 +247,7 @@ margin: 0;
   color: white;
   margin: 0;
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 input::placeholder {
