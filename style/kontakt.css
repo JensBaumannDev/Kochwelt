@@ -1,0 +1,16 @@
+.kontakt-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontakt-inner {
+  width: 100%;
+  background-color: #efefef;
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+  margin: 60px auto;
+}
