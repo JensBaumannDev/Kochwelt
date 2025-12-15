@@ -15,7 +15,7 @@ header {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
-  z-index: 1000; /* damit er über allem liegt */
+  z-index: 1000;
   display: flex;
   justify-content: center;
 }
@@ -85,6 +85,7 @@ li a {
     justify-content: center;
     align-items: center;
 }
+
 .rezept-des-tages-container-inner{
   display: flex;
   justify-content: space-between;
@@ -94,16 +95,13 @@ li a {
  
 .rezeptvorstellung-text{
   margin-left: 30px;
+  text-align: justify;
 }
-
 
 .rezept-des-tages-container img{
   border-radius: 12px;
   height: 250px;
 }
-
-
-
 
 /* LUST AU WAS NEUES  */
 .lust-auf-was-neues-container {
