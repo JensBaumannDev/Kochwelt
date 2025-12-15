@@ -92,6 +92,10 @@ li a {
   max-width: 1440px;
   margin: 80px 160px 80px 160px;
 }
+
+.rezept-des-tages-container-inner h2{
+margin: 0;
+}
  
 .rezeptvorstellung-text{
   margin-left: 30px;
@@ -114,17 +118,21 @@ li a {
   align-items: center;
   height: auto;
   justify-content: center;
-  padding-bottom: 70px;
-  padding-top: 20px;
-  padding-left: 160px;
-  padding-right: 160px;
+      padding: 70px 160px 90px 160px;
+}
+
+.lust-auf-was-neues-container h2{
+ margin: 0 0 50px 0;
+ font-size: 28px;
+    font-weight: 700;
+    text-align: center;
 }
 .lust-auf-was-neues-quicklink{
   display: flex;
   width: 100%;
   max-width: 1440px;
   justify-content: space-between;
-  margin-top: 20px;
+ 
 }
 .quickLink{
     display: flex;
@@ -146,7 +154,7 @@ li a {
 
 .quickLink img:hover{
   transform: scale(1.04);
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.55);
+  box-shadow: 5px 5px 25px 5px rgba(181, 180, 180, 0.55);
 }
 
 /* WAS IST BESSER */
@@ -154,7 +162,7 @@ li a {
   background-color: #ffffff;
   padding: 70px 160px 90px 160px; 
 }
-.was-ist-besser-inner {
+.was-ist-besser {
   max-width: 1440px;
   margin: 0 auto;
 }
