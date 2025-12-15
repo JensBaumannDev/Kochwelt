@@ -15,131 +15,133 @@
     <link rel="shortcut icon" href="./img/logo_small.png" />
   </head>
   <body>
-    <!-- HERO SECTION -->
-    <header>
-      <div class="header-inner">
-        <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
-        <nav class="hauptmenu">
+    <div class="content">
+      <!-- HERO SECTION -->
+      <header>
+        <div class="header-inner">
+          <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
+          <nav class="hauptmenu">
+            <ul>
+              <li><a href="./index.html">Start</a></li>
+              <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
+              <li><a href="./kontakt.html">Kontakt</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="off-screen-menu">
           <ul>
             <li><a href="./index.html">Start</a></li>
             <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
             <li><a href="./kontakt.html">Kontakt</a></li>
             <li><a href="./impressum.html">Impressum</a></li>
           </ul>
+        </div>
+        <nav class="ham-menu-nav">
+          <div class="ham-menu">
+            <span></span>
+            <span></span>   
+            <span></span>
+          </div>
+        </nav>
+      <script>
+        const hamMenu = document.querySelector(".ham-menu");
+        const offScreenMenu = document.querySelector(".off-screen-menu");
+        hamMenu.addEventListener("click", () => {
+          hamMenu.classList.toggle("active");
+          offScreenMenu.classList.toggle("active");
+        });
+      </script>
+      </header>
+      <main>
+        <!-- REZEPTE -->
+        <section class="rezept-des-tages-container">
+          <div class="rezept-des-tages-container-inner">
+            <img src="./img/zimtschnecken.jpg" alt="" />
+            <div class="rezeptvorstellung-text">
+              <h2>Zimtschnecken mit Frischkäse-Glasur</h2>
+              <p>
+                Das beliebte Gebäck aus Hefeteig hat jeder Bäcker im Programm. Mit
+                meinem Zimtschnecken Rezept backst Du klassische Zimtschnecken
+                ganz einfach selbst. Sie sind mit oder ohne Zuckerguss ein Genuss.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- LUST AUF WAS NEUES -->
+        <section class="lust-auf-was-neues-container">
+          <h2>Lust auf was Neues?</h2>
+          <div class="lust-auf-was-neues-quicklink">
+            <a href="#" class="quickLink"
+              >Pizza<img src="img/pizza.jpg" alt="Pizza"
+            /></a>
+            <a href="#" class="quickLink"
+              >Milchreis<img src="img/milchreis.jpg" alt="Milchreis"
+            /></a>
+            <a href="#" class="quickLink"
+              >Gulasch<img src="img/goulash.jpg" alt="gulasch"
+            /></a>
+          </div>
+        </section>
+        <!-- WAS IST BESSER -->
+        <section class="was-ist-besser-container">
+        <h2 class="was-ist-besser-container-h2">Pfanne vs. Wok - Was ist besser?</h2>
+        <div class="was-ist-besser">
+          <p>Ein Wok und eine Pfanne unterscheiden sich vor allem in Form und Funktion. 
+            Der Wok hat hohe, gewölbte Seiten und eignet sich ideal für schnelles Braten 
+            bei hoher Hitze, besonders in der asiatischen Küche. Eine Pfanne hingegen hat 
+            flache Seiten, was das Wenden und gleichmäßige Braten erleichtert – perfekt 
+            für Steaks, Spiegeleier oder Pfannkuchen. Durch die Form verteilt sich beim 
+            Wok die Hitze unterschiedlich, wodurch sich verschiedene Garzonen ergeben. 
+            Eine Pfanne sorgt für eine gleichmäßigere Hitzeverteilung auf dem Boden. 
+            Beide Kochgeräte haben also ihre Stärken – je nach Gericht lohnt sich die 
+            gezielte Wahl.</p>
+            <div class="was-ist-besser-img">
+              <img src="./img/pfanne.png" alt="Pfanne vs Wok" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter -->
+      <section class="newsletter-container">
+        <div class="newsletter-container-inner">
+          <h2>Aboniert unseren Newsletter</h2>
+          <p>Erhaltet automatisch unsere neuesten Rezepte</p>
+        </div>
+      </section>
+      </main>
+      <!-- FOOTER -->
+      <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./img/logo.png" alt="Kochwelt Logo" />
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="./img/facebook-logo.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="./img/instagram-logo.png" alt="Instagram" />
+          </a>
+          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
+            <img src="./img/pinterest-logo.png" alt="Pinterest" />
+          </a>
+        </div>
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul>
+            <li><a href="./kontakt.html">Kontakt</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+            <li><a href="./datenschutz.html">Datenschutz</a></li>
+          </ul>
         </nav>
       </div>
-      <div class="off-screen-menu">
-        <ul>
-          <li><a href="./index.html">Start</a></li>
-          <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
-          <li><a href="./kontakt.html">Kontakt</a></li>
-          <li><a href="./impressum.html">Impressum</a></li>
-        </ul>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2025 Kochwelt • Alle Rechte vorbehalten</p>
       </div>
-    <nav class="ham-menu-nav">
-      <div class="ham-menu">
-        <span></span>
-        <span></span>   
-        <span></span>
-      </div>
-    </nav>
-    <script>
-      const hamMenu = document.querySelector(".ham-menu");
-      const offScreenMenu = document.querySelector(".off-screen-menu");
-      hamMenu.addEventListener("click", () => {
-        hamMenu.classList.toggle("active");
-        offScreenMenu.classList.toggle("active");
-      });
-    </script>
-    </header>
-    <main>
-      <!-- REZEPTE -->
-      <section class="rezept-des-tages-container">
-        <div class="rezept-des-tages-container-inner">
-          <img src="./img/zimtschnecken.jpg" alt="" />
-          <div class="rezeptvorstellung-text">
-            <h2>Zimtschnecken mit Frischkäse-Glasur</h2>
-            <p>
-              Das beliebte Gebäck aus Hefeteig hat jeder Bäcker im Programm. Mit
-              meinem Zimtschnecken Rezept backst Du klassische Zimtschnecken
-              ganz einfach selbst. Sie sind mit oder ohne Zuckerguss ein Genuss.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- LUST AUF WAS NEUES -->
-      <section class="lust-auf-was-neues-container">
-        <h2>Lust auf was Neues?</h2>
-        <div class="lust-auf-was-neues-quicklink">
-          <a href="#" class="quickLink"
-            >Pizza<img src="img/pizza.jpg" alt="Pizza"
-          /></a>
-          <a href="#" class="quickLink"
-            >Milchreis<img src="img/milchreis.jpg" alt="Milchreis"
-          /></a>
-          <a href="#" class="quickLink"
-            >Gulasch<img src="img/goulash.jpg" alt="gulasch"
-          /></a>
-        </div>
-      </section>
-      <!-- WAS IST BESSER -->
-      <section class="was-ist-besser-container">
-      <h2 class="was-ist-besser-container-h2">Pfanne vs. Wok - Was ist besser?</h2>
-      <div class="was-ist-besser">
-        <p>Ein Wok und eine Pfanne unterscheiden sich vor allem in Form und Funktion. 
-          Der Wok hat hohe, gewölbte Seiten und eignet sich ideal für schnelles Braten 
-          bei hoher Hitze, besonders in der asiatischen Küche. Eine Pfanne hingegen hat 
-          flache Seiten, was das Wenden und gleichmäßige Braten erleichtert – perfekt 
-          für Steaks, Spiegeleier oder Pfannkuchen. Durch die Form verteilt sich beim 
-          Wok die Hitze unterschiedlich, wodurch sich verschiedene Garzonen ergeben. 
-          Eine Pfanne sorgt für eine gleichmäßigere Hitzeverteilung auf dem Boden. 
-          Beide Kochgeräte haben also ihre Stärken – je nach Gericht lohnt sich die 
-          gezielte Wahl.</p>
-          <div class="was-ist-besser-img">
-            <img src="./img/pfanne.png" alt="Pfanne vs Wok" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Newsletter -->
-    <section class="newsletter-container">
-      <div class="newsletter-container-inner">
-        <h2>Aboniert unseren Newsletter</h2>
-        <p>Erhaltet automatisch unsere neuesten Rezepte</p>
-      </div>
-    </section>
-    </main>
-    <!-- FOOTER -->
-     <footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-logo">
-        <img src="./img/logo.png" alt="Kochwelt Logo" />
-      </div>
-      <div class="footer-socials">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <img src="./img/facebook-logo.png" alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <img src="./img/instagram-logo.png" alt="Instagram" />
-        </a>
-        <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
-          <img src="./img/pinterest-logo.png" alt="Pinterest" />
-        </a>
-      </div>
-      <nav class="footer-nav" aria-label="Footer Navigation">
-        <ul>
-          <li><a href="./kontakt.html">Kontakt</a></li>
-          <li><a href="./impressum.html">Impressum</a></li>
-          <li><a href="./datenschutz.html">Datenschutz</a></li>
-        </ul>
-      </nav>
     </div>
-    <div class="footer-divider"></div>
-    <div class="footer-bottom">
-      <p>© 2025 Kochwelt • Alle Rechte vorbehalten</p>
-    </div>
+    </footer>
   </div>
-</footer>
   </body>
 </html>
