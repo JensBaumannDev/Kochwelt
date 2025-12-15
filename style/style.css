@@ -95,7 +95,33 @@ li a {
 /* LUST AU WAS NEUES  */
 .lust-auf-was-neues-container {
   background-color: #efefef;
-  height: 160px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+}
+.lust-auf-was-neues-quicklink{
+  display: flex;
+  gap: 200px;
+  margin-top: 20px;
+}
+.quickLink{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+   border-radius: 12px;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-weight: 600;
+}
+.quickLink img{
+     border-radius: 12px;
+     height: 250px;
+     width: 250px;
 }
 
 /* WAS IST BESSER */
@@ -222,3 +248,4 @@ form button p {
 input {
   border-style: none;
 }
+
