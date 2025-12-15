@@ -88,9 +88,15 @@ li a {
 .rezept-des-tages-container-inner{
   display: flex;
   justify-content: space-between;
-  gap: 30px;
   max-width: 1440px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
+ 
+.rezeptvorstellung-text{
+  margin-left: 30px;
+}
+
 
 .rezept-des-tages-container img{
   border-radius: 12px;
