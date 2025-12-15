@@ -163,7 +163,8 @@ li a {
 .was-ist-besser {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
+  text-align: justify; 
   gap: 100px;
 }
 .was-ist-besser p {
