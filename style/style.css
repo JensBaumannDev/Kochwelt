@@ -77,13 +77,19 @@ li a {
 }
 
 /* Rezepte */
+
 .rezept-des-tages-container {
-  background-color: #ffffff;
-  height: 300px;
+    background-color: #ffffff;
+    height: 300px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rezept-des-tages-container-inner{
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  max-width: 1440px;
 }
 
 .rezept-des-tages-container img{
