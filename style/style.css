@@ -80,7 +80,7 @@ li a {
 
 .rezept-des-tages-container {
     background-color: #ffffff;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,8 +89,7 @@ li a {
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
-  margin-left: 160px;
-  margin-right: 160px;
+  margin: 80px 160px 80px 160px;
 }
  
 .rezeptvorstellung-text{
@@ -102,6 +101,7 @@ li a {
   border-radius: 12px;
   height: 250px;
 }
+
 
 
 
