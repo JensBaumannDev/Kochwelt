@@ -147,7 +147,36 @@ li a {
 /* WAS IST BESSER */
 .was-ist-besser-container {
   background-color: #ffffff;
-  height: 160px;
+  padding: 70px 160px 90px 160px; 
+}
+.was-ist-besser-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.was-ist-besser-container-h2 {
+  text-align: center;
+  margin: 0 0 50px 0;
+  font-size: 28px; 
+  font-weight: 700;
+  color: #000;
+}
+.was-ist-besser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 100px;
+}
+.was-ist-besser p {
+  max-width: 720px;      
+  line-height: 1.5;
+  margin: 0;
+  color: #000000;        
+}
+.was-ist-besser-img img {
+  width: 375px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 /* Footer */
