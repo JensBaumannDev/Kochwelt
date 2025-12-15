@@ -92,6 +92,10 @@ li a {
   max-width: 1440px;
   margin: 80px 160px 80px 160px;
 }
+
+.rezept-des-tages-container-inner h2{
+margin: 0;
+}
  
 .rezeptvorstellung-text{
   margin-left: 30px;
