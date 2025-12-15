@@ -79,34 +79,34 @@ li a {
 /* Rezepte */
 
 .rezept-des-tages-container {
-    background-color: #ffffff;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.rezept-des-tages-container-inner{
+.rezept-des-tages-container-inner {
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
   margin: 80px 160px 80px 160px;
 }
 
-.rezept-des-tages-container-inner h2{
-margin: 0;
+.rezept-des-tages-container-inner h2 {
+  margin: 0;
 }
- 
-.rezeptvorstellung-text{
+
+.rezeptvorstellung-text {
   margin-left: 30px;
 }
 
-.rezept-des-tages-container img{
+.rezept-des-tages-container img {
   border-radius: 12px;
   height: 250px;
 }
 
-.rezeptvorstellung-text p{
+.rezeptvorstellung-text p {
   text-align: justify;
 }
 
@@ -118,41 +118,40 @@ margin: 0;
   align-items: center;
   height: auto;
   justify-content: center;
-      padding: 70px 160px 90px 160px;
+  padding: 70px 160px 90px 160px;
 }
 
-.lust-auf-was-neues-container h2{
- margin: 0 0 50px 0;
- font-size: 28px;
-    font-weight: 700;
-    text-align: center;
+.lust-auf-was-neues-container h2 {
+  margin: 0 0 50px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
 }
-.lust-auf-was-neues-quicklink{
+.lust-auf-was-neues-quicklink {
   display: flex;
   width: 100%;
   max-width: 1440px;
   justify-content: space-between;
- 
 }
-.quickLink{
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 8px;
-   text-align: center;
-   text-decoration: none;
-   color: black;
-   font-size: 16px;
-   font-weight: 600;
+.quickLink {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
 }
-.quickLink img{
-     border-radius: 12px;
-     height: 250px;
-     width: 250px;
-     object-fit: cover;
-     transition: all 1s ease;
+.quickLink img {
+  border-radius: 12px;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  transition: all 1s ease;
 }
 
-.quickLink img:hover{
+.quickLink img:hover {
   transform: scale(1.04);
   box-shadow: 5px 5px 25px 5px rgba(181, 180, 180, 0.55);
 }
@@ -160,7 +159,7 @@ margin: 0;
 /* WAS IST BESSER */
 .was-ist-besser-container {
   background-color: #ffffff;
-  padding: 70px 160px 90px 160px; 
+  padding: 70px 160px 90px 160px;
 }
 .was-ist-besser {
   max-width: 1440px;
@@ -169,7 +168,7 @@ margin: 0;
 .was-ist-besser-container-h2 {
   text-align: center;
   margin: 0 0 50px 0;
-  font-size: 28px; 
+  font-size: 28px;
   font-weight: 700;
   color: #000;
 }
@@ -177,14 +176,14 @@ margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: justify; 
+  text-align: justify;
   gap: 100px;
 }
 .was-ist-besser p {
-  max-width: 720px;      
+  max-width: 720px;
   line-height: 1.5;
   margin: 0;
-  color: #000000;        
+  color: #000000;
 }
 .was-ist-besser-img img {
   width: 375px;
@@ -281,34 +280,3 @@ footer ul {
 .footer-logo img {
   height: 80px;
 }
-
-input {
-  height: 40px;
-  flex: 1;
-}
-
-input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
-  padding-left: 16px;
-}
-
-form button {
-  background-color: #008000;
-  border-width: 0;
-  width: 150px;
-  height: 43px;
-  text-align: center;
-}
-
-form button p {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 0;
-}
-
-input {
-  border-style: none;
-}
-
