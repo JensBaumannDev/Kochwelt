@@ -129,6 +129,7 @@ li a {
      border-radius: 12px;
      height: 250px;
      width: 250px;
+     object-fit: cover;
 }
 
 /* WAS IST BESSER */
