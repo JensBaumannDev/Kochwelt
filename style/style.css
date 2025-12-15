@@ -46,7 +46,7 @@ nav {
   font-size: 18px;
 }
 
-ul {
+.hauptmenu ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -54,7 +54,7 @@ ul {
   margin-block-end: 7px;
 }
 
-ul a {
+.hauptmenu ul a {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -62,7 +62,7 @@ ul a {
   margin-left: 16px;
 }
 
-ul a:hover {
+.hauptmenu ul a:hover {
   color: #008000;
   transition: color 0.2s ease, border-bottom 0.1s ease;
   border-bottom: 4px solid #008000;
