@@ -83,11 +83,11 @@ li a {
   justify-content: space-between;
   gap: 30px;
   max-width: 1440px;
-  
 }
 
 .rezept-des-tages-container img{
   border-radius: 12px;
+  height: 250px;
 }
 
 
