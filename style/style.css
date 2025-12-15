@@ -142,13 +142,13 @@ li a {
      width: 250px;
      object-fit: cover;
      transition: all 1s ease;
-      transform: scale(0.8);
+     
 
 }
 
 .quickLink img:hover{
-  transform: scale(1.05);
-  object-fit: scale-down ; 
+  transform: scale(1.04);
+  
 }
 
 /* WAS IST BESSER */
