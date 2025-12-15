@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/ham-menu.css" />
+  </head>
+  <body>
+    <div class="off-screen-menu">
+      <ul>
+        <li><a href="./index.html">Start</a></li>
+        <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
+        <li><a href="./kontakt.html">Kontakt</a></li>
+        <li><a href="./impressum.html">Impressum</a></li>
+      </ul>
+    </div>
+    <nav>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <script>
+      const hamMenu = document.querySelector(".ham-menu");
+      const offScreenMenu = document.querySelector(".off-screen-menu");
+      hamMenu.addEventListener("click", () => {
+        hamMenu.classList.toggle("active");
+        offScreenMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
