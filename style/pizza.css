@@ -109,3 +109,10 @@ section h3 {
   font-size: 28px;
   font-weight: 600;
 }
+.kontakt-section-informationen img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
