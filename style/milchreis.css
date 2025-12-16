@@ -90,8 +90,22 @@ padding-right: 10px;
 .recipe-bottom{
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .recipe-bottom p{
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 20px;
+}
+.profile img{
+    height: 100px;
+    width:100px;
+    border-radius: 360px;
+
 }
