@@ -1,5 +1,7 @@
-.rezeptvorstellung-inner{
-    max-width: 1440px;
+.rezeptvorstellung-inner {
+  max-width: 1440px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 .rezeptvorstellung img {
@@ -29,4 +31,28 @@
   height: 15px;
   width: 15px;
   object-fit: contain;
+}
+
+/*Zutaten*/
+
+.zutaten-inner {
+  max-width: 1440px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+/*Zubereitung*/
+
+.zubereitung-inner {
+  max-width: 1440px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+/*Autor*/
+
+.aotor-inner{
+  max-width: 1440px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
