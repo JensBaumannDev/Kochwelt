@@ -66,14 +66,16 @@ main {
   padding: 0;
 }
 .portionen-btn {
-  height: 36px;
-  padding: 0 16px;
-  border: none;
-  border-radius: 0 6px 6px 0;
-  background: #008000;
-  color: #fff;
-  font-weight: 600;
+  background-color: #008000;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   cursor: pointer;
+  border-radius: 0;
+  padding: 10px;
+  border: none;
 }
 .zutaten-liste {
   list-style: none;
