@@ -1,7 +1,28 @@
 .time-icons img{
-width: 20px;
+width: 15px;
+padding-right: 10px;
+
 }
 
 .rezept{
 padding: 80px 160px 80px 160px;
+}
+.recipe-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.time-icons{
+    padding: 5px 10px;
+    padding-right: 10px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 6px;
 }
