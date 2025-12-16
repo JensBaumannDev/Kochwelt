@@ -1,5 +1,10 @@
-@media (max-width: 767px) {
-    
+@media (min-width: 767px) {
+    .ham-menu-nav{
+        display: none;
+    }
+    .off-screen-menu{
+        display: none;
+    }
 }
 
 @media (max-width: 1150px) {
