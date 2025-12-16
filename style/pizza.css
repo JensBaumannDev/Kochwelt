@@ -77,6 +77,13 @@ main {
   border-radius: 8px;
   font-size: 16px;
 }
+.zutat-item:nth-child(odd) {
+  background: #efefef;
+}
+
+.zutat-item:nth-child(even) {
+  background: #ffffff;
+}
 .zubereitung-informationen {
   margin: 16px 0 16px 0;
 }
