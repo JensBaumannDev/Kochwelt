@@ -1,3 +1,7 @@
-@media (max-width: 767px) {
+@media (min-width: 767px) {
+      
+    .off-screen-menu{
+      display: none;  
+    }
     
 }
