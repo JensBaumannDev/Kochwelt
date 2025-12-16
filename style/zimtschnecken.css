@@ -52,6 +52,15 @@ h1{
   background-color: #efefef;
   padding: 18px 34px;
   border-radius: 8px;
+  margin-bottom: 0;
+}
+
+li:nth-child(even) {
+  background-color: #fff;
+}
+
+li:nth-child(odd) {
+  background-color: #efefef;
 }
 
 /*Zubereitung*/
