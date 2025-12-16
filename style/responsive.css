@@ -13,6 +13,9 @@
     text-align: center;
   }
 
+  .lust-auf-was-neues-container {
+    padding: 40px 80px 40px 80px;
+}
   .rezept-des-tages-container-inner {
     margin: 40px 80px 40px 80px;
     align-items: center;
@@ -97,6 +100,14 @@
     height: auto;
     width: 100%;
   }
+
+  .rezept-button {
+    margin-top: 30px;
+}
+
+  .lust-auf-was-neues-container {
+        padding: 60px 40px 60px 40px;
+    }
 
   .was-ist-besser-container {
     padding: 50px 20px 70px 20px;
