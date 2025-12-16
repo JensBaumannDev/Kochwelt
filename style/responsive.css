@@ -161,4 +161,7 @@
     font-size: 13px;
   }
 
+  .footer a{
+    margin:0;
+  }
 }
