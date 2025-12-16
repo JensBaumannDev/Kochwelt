@@ -60,15 +60,18 @@
     </header>
     <main>
       <section class="kontakt-container">
-        <form class="kontakt-inner">
+        <form class="kontakt-inner"
+        action="mailto:maxmustermann@web.de"
+        method="post"
+        enctype="text/plain">
         <h2>Kontaktiere uns</h2>
       
           <label for="name">Dein Name:</label>
-          <input id="name"type="text" required>
+          <input id="name" name="name" type="text" required>
           <label for="email">Deine E-Mail:</label>
-          <input id="email"type="text" required>
+          <input id="email" name="Email" type="email" required>
            <label for="nachricht">Deine Nachricht:</label>
-           <textarea id="nachricht" required></textarea>
+           <textarea id="nachricht" name="Nachricht" required></textarea>
           <input type="submit" class="btn-primary" value="Abschicken">
         
         </form>
