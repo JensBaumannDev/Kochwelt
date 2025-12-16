@@ -15,6 +15,7 @@
 
   .rezept-des-tages-container-inner {
     margin: 40px 80px 40px 80px;
+    align-items: center;
   }
 
   .lust-auf-was-neues-quicklink {
@@ -86,6 +87,10 @@
     .rezept-des-tages-container-inner {
     margin: 60px 40px 60px 40px;
   }
+
+  .rezept-des-tages-container-img{
+  text-align: center;
+}
 
   .rezept-des-tages-container img {
     border-radius: 12px;
