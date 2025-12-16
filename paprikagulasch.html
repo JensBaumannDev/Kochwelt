@@ -92,7 +92,8 @@
         <!-- ZUTATEN -->
         <section class="zutaten-container">
           <div class="zutaten-portionen">
-            <input
+            <label for="anzhal-personen">Zutaten für</label>
+            <input class="personen-input"
               type="number"
               name="anzhal-personen"
               placeholder="Anzahl der Personen"
@@ -100,7 +101,12 @@
               min="0"
               max="10"
             />
-
+            <input
+              type="button"
+              value="Portionen"
+              onclick="berechnePortionen()"
+              class="btn"
+            />
           </div>
         </section>
         <!-- ZUBEREITUNG -->

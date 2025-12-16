@@ -1,7 +1,7 @@
-h1{
+h1 {
   font-weight: 600;
 }
-h2{
+h2 {
   font-weight: 600;
 }
 
@@ -15,7 +15,6 @@ h2{
   height: 200px;
   border-radius: 10px;
   object-fit: cover;
-  
 }
 
 .rezept-merkmale p {
@@ -25,7 +24,7 @@ h2{
   display: flex;
   align-items: center;
   gap: 10px;
-    text-align: center;
+  text-align: center;
 }
 
 .rezept-merkmale {
@@ -73,34 +72,75 @@ h2{
   max-width: 1440px;
   margin: 60px 160px;
 }
-.zubereitung-inner ol{
+.zubereitung-inner ol {
   padding-inline-start: 0px;
 }
 
-.zubereitung-inner li{
+.zubereitung-inner li {
   text-align: justify;
   margin-bottom: 16px;
 }
 
-.zubereitung-inner p{
+.zubereitung-inner p {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
 /*Autor*/
 
-.aotor-inner {
+.autor-inner {
   max-width: 1440px;
   margin: 60px 160px;
 }
 
-.autor-container{
+.autor-container {
   display: flex;
   align-items: center;
   gap: 20px;
   font-size: 28px;
 }
-.autor-container img{
+.autor-container img {
   border-radius: 50%;
   height: 80px;
+}
+
+@media (max-width: 1200px) {
+  .rezeptvorstellung-inner {
+    margin: 40px 80px 40px 80px;
+  }
+
+  .zutaten-inner {
+    margin: 40px 80px 40px 80px;
+  }
+
+  .zubereitung-inner {
+    margin: 40px 80px 40px 80px;
+  }
+
+  .autor-inner {
+    margin: 40px 80px 40px 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rezeptvorstellung-inner {
+    margin: 60px 40px 60px 40px;
+  }
+
+  .zutaten-inner {
+    margin: 60px 40px 60px 40px;
+  }
+
+  .zubereitung-inner {
+    margin: 60px 40px 60px 40px;
+  }
+
+  .autor-inner {
+    margin: 60px 40px 60px 40px;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+  }
+
 }
