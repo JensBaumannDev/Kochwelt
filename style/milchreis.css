@@ -70,6 +70,7 @@ padding-right: 10px;
 .recipe-table{
     padding-top: 12px;
     margin-top: 12px;
+    margin-bottom: 50px;
 }
 
 .recipe-list{
@@ -85,4 +86,12 @@ padding-right: 10px;
 
 .td-background {
     background-color: #efefef;
+}
+.recipe-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-bottom p{
+    margin-top: 50px;
 }
