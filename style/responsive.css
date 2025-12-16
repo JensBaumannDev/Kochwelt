@@ -1,4 +1,4 @@
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .ham-menu-nav{
         display: none;
     }
@@ -7,7 +7,7 @@
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
     .lust-auf-was-neues-quicklink{
         display: flex;
         flex-direction: column;
