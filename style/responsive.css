@@ -1,3 +1,13 @@
 @media (max-width: 767px) {
-    
+   
+}
+
+@media (max-width: 1150px) {
+    .lust-auf-was-neues-quicklink{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
 }
