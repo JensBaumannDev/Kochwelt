@@ -63,20 +63,20 @@
         <section class="rezeptvorstellung-container">
           <div class="rezeptvorstellung-inner">
             <div class="rezeptvorstellung-top">
-              <h1>Paprikagulasch</h1>
+              <h1>Saftiges Paprikagulasch</h1>
               <img src="./img/gulasch.jpg" alt="" />
             </div>
             <div class="rezeptvorstellung-information">
               <div class="rezeptvorstellung-information-inner">
                 <img src="./img/icons/clock-regular.svg" alt="Bild einer Uhr" />
-                <p>15 Min</p>
+                <p>30 Min</p>
               </div>
               <div class="rezeptvorstellung-information-inner">
                 <img
                   src="./img/icons/brain-solid.svg"
                   alt="Darstellung Schwierigkeit"
                 />
-                <p>simpel</p>
+                <p>normal</p>
               </div>
               <div class="rezeptvorstellung-information-inner">
                 <img
@@ -90,7 +90,41 @@
           </div>
         </section>
         <!-- ZUTATEN -->
-        <section></section>
+        <section class="zutaten-container">
+          <div class="zutaten-portionen">
+            <label for="anzhal-personen">Zutaten für</label>
+            <input
+              class="personen-input"
+              type="number"
+              name="anzhal-personen"
+              placeholder="Anzahl der Personen"
+              value="4"
+              min="0"
+              max="10"
+            />
+            <input
+              type="button"
+              value="Portionen"
+              onclick="berechnePortionen()"
+              class="btn"
+            />
+          </div>
+          <div class="zutaten-liste-container">
+            <ul>
+              <li>500 g Rindfleisch</li>
+              <li>6 m.-große Zwiebel(n)</li>
+              <li>4 Knoblauchzehe(n)</li>
+              <li>Rapsöl</li>
+              <li>1 EL Paprikapulver, edelsüßes</li>
+              <li>1 EL Paprikapulver, rosenscharfes</li>
+              <li>3 EL Tomatenmark</li>
+              <li>500 ml Rinderbrühe</li>
+              <li>3 Paprikaschote(n), rote</li>
+              <li>125 ml Rotwein, trockener</li>
+              <li>2 EL Kümmelsamen</li>
+            </ul>
+          </div>
+        </section>
         <!-- ZUBEREITUNG -->
         <section></section>
         <!-- AUTOR -->

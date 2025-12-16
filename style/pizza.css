@@ -1,0 +1,69 @@
+main {
+  max-width: 1440px;
+  margin: 60px 160px;
+}
+
+.rezeptvorstellung h1 {
+  margin: 0 0 24px 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+.rezeptvorstellung img {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 18px;
+}
+.rezeptvorstellung div {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.informations-zeit,
+.informations-kcal,
+.informations-datum {
+  background: #efefef;
+  padding: 6px 14px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.zutaten-section {
+  margin-top: 60px;
+}
+.zutaten-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.zutaten-controls {
+  display: flex;
+  align-items: center;
+}
+.zutaten-controls input {
+  width: 60px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  text-align: center;
+  font-size: 14px;
+  padding: 0;
+}
+.portionen-btn {
+  height: 36px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background: #008000;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
