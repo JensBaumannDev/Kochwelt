@@ -186,6 +186,7 @@ li a {
   gap: 100px;
 }
 .was-ist-besser p {
+  text-align: justify;
   max-width: 720px;
   line-height: 1.5;
   margin: 0;
