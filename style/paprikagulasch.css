@@ -146,7 +146,7 @@ label {
   border-radius: 12px;
 }
 
-.zubereitung-container{
+.zubereitung-container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -156,14 +156,46 @@ label {
   margin-top: 16px;
 }
 
-.zubereitung-container h2{
-    margin: 0;
-    margin-top: 24px;
+.zubereitung-container h2 {
+  margin: 0;
+  margin-top: 24px;
 }
 
-.zubereitung-text p{
-    margin: 0;
-    padding-top: 40px;
+.zubereitung-text p {
+  margin: 0;
+  padding-top: 40px;
 }
 
+.autor-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 24px;
+}
 
+.autor-container h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.autor-inner{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.autor-inner img{
+    height: 80px;
+    width: 80px;
+    border-radius: 360px;
+    object-fit: cover;
+}
+
+.autor-inner p{
+    font-size: 32px;
+    margin-left: 32px;
+}

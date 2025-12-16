@@ -1,12 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-    overflow-x: hidden;
+  overflow-x: hidden;
+  
+}
+.rezeptvorstellung{
+    max-width: 1440px;
+   
 }
 .rezept{
 padding: 80px 160px 80px 160px;
+display: flex;
+justify-content: center;
+
 }
 
 .recipe-header{
@@ -120,5 +126,4 @@ padding-right: 10px;
     width:100px;
     border-radius: 360px;
     object-fit: cover;
-
 }
