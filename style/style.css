@@ -168,7 +168,7 @@ li a {
 /* WAS IST BESSER */
 .was-ist-besser-container {
   background-color: #ffffff;
-  padding: 70px 160px 90px 160px;
+  margin: 80px 160px 80px 160px;
 }
 .was-ist-besser {
   max-width: 1440px;
