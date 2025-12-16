@@ -1,15 +1,17 @@
-.time-icons img{
-width: 15px;
-padding-right: 10px;
-
-}
-
 .rezept{
 padding: 80px 160px 80px 160px;
 }
+
 .recipe-header{
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.recipe-icons{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
 }
 
 .recipe-img img{
@@ -21,8 +23,66 @@ padding: 80px 160px 80px 160px;
 }
 
 .time-icons{
-    padding: 5px 10px;
-    padding-right: 10px;
-    background-color: rgb(209, 209, 209);
+    gap: 2px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(237, 235, 235);
     border-radius: 6px;
+    display: inline-flex;
+    padding: 4px 8px;
+}
+
+.time-icons img{
+width: 18px;
+padding-right: 10px;
+}
+
+
+.recipe-portions{
+ display: flex;
+ align-items: center;
+}
+
+.recipe-portions span{
+    padding-right: 15px;
+}
+
+.btn {
+  background-color: #008000;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border:none;
+  padding: 10px;
+}
+
+.recipe-portions-value{
+    height: 35px;
+    border: 2px solid rgb(237, 237, 238);
+    width: 150px;
+    font-size: 16px;
+    border-radius:6px 0px 0px 6px;
+}
+
+.recipe-table{
+    padding-top: 12px;
+    margin-top: 12px;
+}
+
+.recipe-list{
+    width: 100%;
+}
+
+.recipe-list td {
+    padding-block: 16px;
+    padding-left: 32px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.td-background {
+    background-color: #efefef;
 }
