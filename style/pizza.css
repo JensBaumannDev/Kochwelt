@@ -93,3 +93,19 @@ section h2 {
   margin: 60px 0 16px 0;
   font-size: 28px;
 }
+section p {
+  line-height: 1.6;
+  text-align: justify;
+}
+section h3 {
+  margin: 60px 0 16px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.kontakt-section-informationen {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
