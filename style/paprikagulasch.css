@@ -124,22 +124,25 @@ label {
   margin-bottom: 50px;
 }
 
-ul {
+.zutaten-list ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-ul li {
-  padding: 24px 12px;
+.zutaten-list ul li {
+  padding: 16px 12px;
+  margin: 0;
+  padding-left: 46px;
 }
 
-ul li:nth-child(even) {
+.zutaten-list ul li:nth-child(even) {
   background-color: white;
   border-radius: 12px;
 }
 
-ul li:nth-child(odd) {
+.zutaten-list ul li:nth-child(odd) {
   background-color: #f0f0f0;
   border-radius: 12px;
+
 }
