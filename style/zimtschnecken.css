@@ -74,7 +74,7 @@ h2{
   margin: 60px 160px;
 }
 .zubereitung-inner ol{
-      padding-inline-start: 14px;
+  padding-inline-start: 0px;
 }
 
 .zubereitung-inner li{
@@ -91,6 +91,16 @@ h2{
 
 .aotor-inner {
   max-width: 1440px;
-  margin-left: 160px;
-  margin-right: 160px;
+  margin: 60px 160px;
+}
+
+.autor-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 28px;
+}
+.autor-container img{
+  border-radius: 50%;
+  height: 80px;
 }
