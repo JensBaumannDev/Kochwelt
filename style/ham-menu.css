@@ -72,6 +72,12 @@ li a {
     position: relative;
 }
 
+.ham-menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .ham-menu span{
     height: 5px;
     width: 100%;

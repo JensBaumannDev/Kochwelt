@@ -95,17 +95,16 @@ li a {
 .rezept-des-tages-container-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1440px;
   margin: 80px 160px 80px 160px;
+  gap: 50px;
 }
 
 .rezept-des-tages-container-inner h2 {
   margin: 0;
 }
 
-.rezeptvorstellung-text {
-  margin-left: 30px;
-}
 
 .rezept-des-tages-container img {
   border-radius: 12px;
@@ -183,7 +182,7 @@ li a {
   justify-content: space-between;
   align-items: center;
   text-align: justify;
-  gap: 100px;
+  gap: 50px;
 }
 .was-ist-besser p {
   max-width: 720px;

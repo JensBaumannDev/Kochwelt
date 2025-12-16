@@ -1,4 +1,17 @@
 @media (max-width: 768px) {
+  .logo {
+    height: 60px;
+  }
+
+  .header-inner {
+    gap: 30px;
+  }
+
+  .rezept-des-tages-container img {
+    border-radius: 12px;
+    height: 170px;
+}
+
   .was-ist-besser-container {
     padding: 50px 20px 70px 20px;
   }
@@ -12,7 +25,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .ham-menu-nav {
     display: none;
   }
@@ -21,7 +34,30 @@
   }
 }
 
+@media (max-width: 900px) {
+  .hauptmenu {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
+  .header-inner {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .rezept-des-tages-container-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rezeptvorstellung-text p {
+    text-align: center;
+  }
+
+  .rezept-des-tages-container-inner {
+    margin: 40px 80px 40px 80px;
+  }
+
   .lust-auf-was-neues-quicklink {
     display: flex;
     flex-direction: column;
@@ -44,5 +80,9 @@
     width: 100%;
     max-width: 420px;
     height: auto;
+  }
+
+  .footer-top {
+    flex-direction: column;
   }
 }
