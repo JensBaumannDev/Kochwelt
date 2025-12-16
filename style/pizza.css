@@ -16,10 +16,24 @@ main {
   display: block;
   margin-bottom: 18px;
 }
-.rezeptvorstellung div {
+.rezeptvorstellung > div {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+.informations-zeit,
+.informations-kcal,
+.informations-datum {
+  background: #efefef;
+  padding: 6px 14px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
 }
 .rezeptvorstellung span img {
   width: 16px;
