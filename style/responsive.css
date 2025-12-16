@@ -1,43 +1,6 @@
-@media (min-width: 768px) {
-    .ham-menu-nav{
-        display: none;
-    }
-    .off-screen-menu{
-        display: none;
-    }
-}
-
-@media (max-width: 1200px) {
-    .lust-auf-was-neues-quicklink{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-    }
-}
-@media (max-width: 1200px) {
-  .was-ist-besser {
-    flex-direction: column;       
-    gap: 40px;                    
-    text-align: center;           
-  }
-
-  .was-ist-besser p {
-    max-width: 100%;              
-  }
-
-  .was-ist-besser-img img {
-    width: 100%;
-    max-width: 420px;             
-    height: auto;
-  }
-}
-
-
 @media (max-width: 768px) {
   .was-ist-besser-container {
-    padding: 50px 20px 70px 20px; 
+    padding: 50px 20px 70px 20px;
   }
 
   .was-ist-besser {
@@ -46,5 +9,40 @@
 
   .was-ist-besser-container-h2 {
     font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ham-menu-nav {
+    display: none;
+  }
+  .off-screen-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .lust-auf-was-neues-quicklink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .was-ist-besser {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .was-ist-besser p {
+    max-width: 100%;
+  }
+
+  .was-ist-besser-img img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
   }
 }
