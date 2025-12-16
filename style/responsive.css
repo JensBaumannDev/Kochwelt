@@ -56,7 +56,7 @@
   }
 
   .was-ist-besser {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 40px;
     text-align: center;
   }
