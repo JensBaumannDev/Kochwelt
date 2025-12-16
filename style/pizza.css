@@ -21,22 +21,12 @@ main {
   gap: 10px;
   flex-wrap: wrap;
 }
-.informations-zeit,
-.informations-kcal,
-.informations-datum {
-  background: #efefef;
-  padding: 6px 14px;
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 12px;
-  object-fit: cover;
-  display: block;
-  margin-bottom: 18px;
+.rezeptvorstellung span img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: inline-block;
+  flex: 0 0 16px;
 }
 .zutaten-section {
   margin-top: 60px;
