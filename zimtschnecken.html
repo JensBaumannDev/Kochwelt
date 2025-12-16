@@ -12,105 +12,145 @@
     />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/ham-menu.css" />
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="stylesheet" href="style/zimtschnecken.css">
+    <link rel="stylesheet" href="style/responsive.css" />
+    <link rel="stylesheet" href="style/zimtschnecken.css" />
     <link rel="shortcut icon" href="./img/logo_small.png" />
-
   </head>
   <body>
-<div class="content">
-    <!-- HERO SECTION -->
-    <header>
-      <div class="header-inner">
-        <a href="./index.html" class="logo-link">
-          <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
-        </a>
-        <nav class="hauptmenu">
-          <ul>
-            <li><a href="./index.html">Start</a></li>
-            <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
-            <li><a href="./kontakt.html">Kontakt</a></li>
-            <li><a href="./impressum.html">Impressum</a></li>
-          </ul>
-        </nav>
-      
-        <div class="off-screen-menu">
-          <ul>
-            <li><a href="./index.html">Start</a></li>
-            <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
-            <li><a href="./kontakt.html">Kontakt</a></li>
-            <li><a href="./impressum.html">Impressum</a></li>
-          </ul>
-        </div>
-        <nav class="ham-menu-nav">
-          <div class="ham-menu">
-            <span></span>
-            <span></span>   
-            <span></span>
+    <div class="content">
+      <!-- HERO SECTION -->
+      <header>
+        <div class="header-inner">
+          <a href="./index.html" class="logo-link">
+            <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
+          </a>
+          <nav class="hauptmenu">
+            <ul>
+              <li><a href="./index.html">Start</a></li>
+              <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
+              <li><a href="./kontakt.html">Kontakt</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
+          </nav>
+
+          <div class="off-screen-menu">
+            <ul>
+              <li><a href="./index.html">Start</a></li>
+              <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
+              <li><a href="./kontakt.html">Kontakt</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
           </div>
-        </nav>
-      </div>
-    <script>
-      const hamMenu = document.querySelector(".ham-menu");
-      const offScreenMenu = document.querySelector(".off-screen-menu");
-      hamMenu.addEventListener("click", () => {
-        hamMenu.classList.toggle("active");
-        offScreenMenu.classList.toggle("active");
-      });
-    </script>
-    </header>
-    <main>
-      <!-- REZEPTVORSTELLUNG -->
-      <section class="rezeptvorstellung">
-        <h1>Zimtschnecken</h1>
-        <img src="./img/zimtschnecken.jpg" alt="Zimtschnecken mit Frischkäse-Glasur">
-        <div>
-          <p></p>
-          <p></p>
-          <p></p>
+          <nav class="ham-menu-nav">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
         </div>
-      </section>
-      <!-- ZUTATEN -->
-      <section></section>
-      <!-- ZUBEREITUNG -->
-      <section></section>
-      <!-- AUTOR -->
-       <section></section>
-    </main>
-    <!-- FOOTER -->
-     <footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-logo">
-        <a href="./index.html" class="logo-link">
-          <img src="./img/logo.png" alt="Kochwelt Logo" />
-        </a>
-      </div>
-      <div class="footer-socials">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <img src="./img/facebook-logo.png" alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <img src="./img/instagram-logo.png" alt="Instagram" />
-        </a>
-        <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
-          <img src="./img/pinterest-logo.png" alt="Pinterest" />
-        </a>
-      </div>
-      <nav class="footer-nav" aria-label="Footer Navigation">
-        <ul>
-          <li><a href="./kontakt.html">Kontakt</a></li>
-          <li><a href="./impressum.html">Impressum</a></li>
-          <li><a href="./datenschutz.html">Datenschutz</a></li>
-        </ul>
-      </nav>
+        <script>
+          const hamMenu = document.querySelector(".ham-menu");
+          const offScreenMenu = document.querySelector(".off-screen-menu");
+          hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+          });
+        </script>
+      </header>
+      <main>
+        <!-- REZEPTVORSTELLUNG -->
+        <section class="rezeptvorstellung">
+          <div class="rezeptvorstellung-inner">
+            <h1>Zimtschnecken</h1>
+            <img
+              src="./img/zimtschnecken.jpg"
+              alt="Zimtschnecken mit Frischkäse-Glasur"
+            />
+            <div class="rezept-merkmale">
+              <p>
+                <img
+                  src="./img/icons/clock-regular.svg"
+                  class="rezeptvorstellung-icon"
+                  alt="Uhr icon"
+                />
+                2 Std. 30 Min.
+              </p>
+              <p>
+                <img
+                  src="./img/icons/clock-regular.svg"
+                  class="rezeptvorstellung-icon"
+                  alt="Uhr icon"
+                />
+                einfach
+              </p>
+              <p>
+                <img
+                  src="./img/icons/clock-regular.svg"
+                  class="rezeptvorstellung-icon"
+                  alt="Uhr icon"
+                />
+                16.12.2025
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- ZUTATEN -->
+        <section></section>
+        <!-- ZUBEREITUNG -->
+        <section></section>
+        <!-- AUTOR -->
+        <section></section>
+      </main>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <a href="./index.html" class="logo-link">
+                <img src="./img/logo.png" alt="Kochwelt Logo" />
+              </a>
+            </div>
+            <div class="footer-socials">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <img src="./img/facebook-logo.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <img src="./img/instagram-logo.png" alt="Instagram" />
+              </a>
+              <a
+                href="https://www.pinterest.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Pinterest"
+              >
+                <img src="./img/pinterest-logo.png" alt="Pinterest" />
+              </a>
+            </div>
+            <nav class="footer-nav" aria-label="Footer Navigation">
+              <ul>
+                <li><a href="./kontakt.html">Kontakt</a></li>
+                <li><a href="./impressum.html">Impressum</a></li>
+                <li><a href="./datenschutz.html">Datenschutz</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-divider"></div>
+          <div class="footer-bottom">
+            <p>© 2025 Kochwelt • Alle Rechte vorbehalten</p>
+          </div>
+        </div>
+      </footer>
     </div>
-    <div class="footer-divider"></div>
-    <div class="footer-bottom">
-      <p>© 2025 Kochwelt • Alle Rechte vorbehalten</p>
-    </div>
-  </div>
-</footer>
-</div>
   </body>
 </html>
