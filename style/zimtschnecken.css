@@ -8,13 +8,12 @@
   width: 100%;
   height: 200px;
   border-radius: 5px;
-  margin: 8px 0px;
   object-fit: cover;
 }
 
 .rezept-merkmale p {
   background: #efefef;
-  padding: 1px 6px;
+  padding: 6px 14px;
   border-radius: 5px;
   font-size: 14px;
   display: flex;
@@ -39,6 +38,13 @@
   max-width: 1440px;
   margin-left: 160px;
   margin-right: 160px;
+}
+
+.zutaten-inner ul{
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*Zubereitung*/
