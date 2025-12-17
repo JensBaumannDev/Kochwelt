@@ -1,11 +1,12 @@
 /* Rezeptvorstellung  */
+main {
+  padding: 0px 160px 0px 160px;
+}
 
 .rezeptvorstellung-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .rezeptvorstellung-inner {
@@ -84,8 +85,6 @@
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 16px;
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .zutaten-portionen {
@@ -158,8 +157,6 @@ label {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 16px;
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .zubereitung-container h2 {
@@ -180,8 +177,6 @@ label {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 24px;
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .autor-container h3 {

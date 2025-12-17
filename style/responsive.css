@@ -89,6 +89,11 @@
   .hauptmenu {
     display: none;
   }
+
+  .full-content-container{
+    padding: 0px 80px 0px 80px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -174,3 +179,17 @@ width: auto;
 }
 
 }
+
+@media (max-width: 579px){
+.full-content-container{
+  padding: 0px 16px 0px 16px;
+}
+
+.zubereitung-information, 
+.rezeptvorstellung-information{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
