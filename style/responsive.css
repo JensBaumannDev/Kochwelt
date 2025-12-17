@@ -189,6 +189,22 @@ width: auto;
 .rezeptvorstellung-information{
   display: flex;
   flex-direction: column;
+  align-items:flex-start;
+  gap:16px;
+  padding-top: 24px;
+}
+
+.zubereitung-information-inner, 
+.rezeptvorstellung-information-inner{
+margin-top: 0px;
+}
+
+.rezeptvorstellung-line{
+  margin-top: 32px;
+}
+
+.personen-input{
+
 }
 
 }
