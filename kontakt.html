@@ -56,14 +56,31 @@
         hamMenu.classList.toggle("active");
         offScreenMenu.classList.toggle("active");
       });
+
+      function sendMail(event){﻿
+    event.preventDefault();
+    const data = new FormData(event.target);
+
+    fetch("https://formspree.io/f/mldqqozw", {
+        method: "POST",
+        body: new FormData(event.target),
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(() => {
+        window.location.href = "./send_mail.html";
+    }).catch((error) => {
+        console.log(error);
+    });
+}
     </script>
     </header>
     <main>
       <section class="kontakt-container">
-        <form class="kontakt-inner"
-        action="mailto:maxmustermann@web.de"
-        method="post"
-        enctype="text/plain">
+        <form onsubmit="sendMail(event)" class="kontakt-inner"
+          action="https://formspree.io/f/mldqqozw"
+          method="POST">
+
         <h2>Kontaktiere uns</h2>
       
           <label for="name">Dein Name:</label>
