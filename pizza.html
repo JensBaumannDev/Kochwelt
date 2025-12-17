@@ -58,65 +58,112 @@
       });
     </script>
     </header>
-    <main>
-      <!-- REZEPTVORSTELLUNG -->
-      <section class="rezeptvorstellung">
+    <main class="full-content-container">
+  <!-- REZEPTVORSTELLUNG -->
+  <section class="rezeptvorstellung-container">
+    <div class="rezeptvorstellung-inner">
+      <div class="rezeptvorstellung-top">
         <h1>Pizza</h1>
-        <img src="./img/pizza.jpg" alt="">
-        <div>
-          <span class="informations-zeit"><img src="img/icons/clock-regular.svg" alt="uhr">20min</span>
-         <span class="informations-kcal"><img src="img/icons/brain-solid.svg" alt="">800 kcal per person</span>
-         <span class="informations-datum"><img src="img/icons/calendar-alt-regular.svg" alt="">16.12.2025</span>
-        </div>
-      </section>
-      <!-- ZUTATEN -->
-  <section class="zutaten-section">
-    <div class="zutaten-header">
-      <span>Zutaten für:</span>
+        <img src="./img/pizza.jpg" alt="Pizza" />
+      </div>
 
-       <div class="zutaten-controls">
-        <input type="text" name="username" placeholder="Dein Name" value="4">
-        <button type="button" class="portionen-btn">Portionen</button>
-       </div>
+      <div class="rezeptvorstellung-information">
+        <div class="rezeptvorstellung-information-inner">
+          <img src="./img/icons/clock-regular.svg" alt="Uhr" />
+          <p>20 Min</p>
+        </div>
+
+        <div class="rezeptvorstellung-information-inner">
+          <img src="./img/icons/brain-solid.svg" alt="Kalorien" />
+          <p>800 kcal / Person</p>
+        </div>
+
+        <div class="rezeptvorstellung-information-inner">
+          <img src="./img/icons/calendar-alt-regular.svg" alt="Datum" />
+          <p>16.12.2025</p>
+        </div>
+      </div>
+
+      <div class="rezeptvorstellung-line"></div>
     </div>
-    <ul class="zutaten-liste">
-      <li class="zutat-item">250 g Pizzamehl oder Weizenmehl</li>
-      <li class="zutat-item">160 ml Wasser (lauwarm)</li>
-      <li class="zutat-item">7 g Trockenhefe (oder 20 g frische Hefe)</li>
-      <li class="zutat-item">1 TL Salz</li>
-      <li class="zutat-item">1 TL Zucker</li>
-      <li class="zutat-item">1 EL Olivenöl</li>
-      <li class="zutat-item">150 g passierte Tomaten</li>
-      <li class="zutat-item">1 Kugel Mozzarella (ca. 125 g)</li>
-      <li class="zutat-item">1 Prise Oregano</li>
-      <li class="zutat-item">Frisches Basilikum (optional)</li>
-    </ul>
   </section>
-      </section>
-      <!-- ZUBEREITUNG -->
-    <section>
-      <h2>Zubereitung</h2>
 
-        <div class="zubereitung-informationen">
-          <span class="informations-zeit">⏱ ca. 20 min</span>
-        </div>
+  <!-- ZUTATEN -->
+  <section class="zutaten-container">
+    <div class="zutaten-portionen">
+      <label for="anzhal-personen">Zutaten für</label>
+      <input
+        id="anzhal-personen"
+        class="personen-input"
+        type="number"
+        name="anzhal-personen"
+        value="4"
+        min="1"
+        max="10"
+      />
+      <input
+        type="button"
+        value="Portionen"
+        onclick="berechnePortionen()"
+        class="btn"
+      />
+    </div>
 
-        <p>
-          Mehl, Salz und Zucker mischen. Hefe im lauwarmen Wasser auflösen, mit Olivenöl
-          zum Mehl geben und zu einem glatten Teig kneten. Teig abgedeckt 45–60 Minuten
-          gehen lassen. Ofen auf 250°C vorheizen. Teig dünn ausrollen, mit passierten
-          Tomaten bestreichen, würzen und mit Mozzarella belegen. 8–12 Minuten backen.
-        </p>
-    </section>
-      <!-- AUTOR -->
-       <section>
-        <h3>Rezept erstellt von</h3>
-        <div class="kontakt-section-informationen">
-            <img src="./img/profile.png">
-            <span>Etem Sakin</span>
-        </div>
-       </section>
-    </main>
+    <div class="zutaten-liste-container">
+      <div class="zutaten-list">
+        <ul>
+          <li>250 g Pizzamehl oder Weizenmehl</li>
+          <li>160 ml Wasser (lauwarm)</li>
+          <li>7 g Trockenhefe (oder 20 g frische Hefe)</li>
+          <li>1 TL Salz</li>
+          <li>1 TL Zucker</li>
+          <li>1 EL Olivenöl</li>
+          <li>150 g passierte Tomaten</li>
+          <li>1 Kugel Mozzarella (ca. 125 g)</li>
+          <li>1 Prise Oregano</li>
+          <li>Frisches Basilikum (optional)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ZUBEREITUNG -->
+  <section class="zubereitung-container">
+    <h2>Zubereitung</h2>
+
+    <div class="zubereitung-information">
+      <div class="zubereitung-information-inner">
+        <img src="./img/icons/clock-regular.svg" alt="Uhr" />
+        <p>ca. 20 Min</p>
+      </div>
+
+      <div class="zubereitung-information-inner">
+        <img src="./img/icons/clock-regular.svg" alt="Gesamtzeit" />
+        <p>45–60 Min. Gehzeit (optional)</p>
+      </div>
+    </div>
+
+    <div class="zubereitung-text">
+      <p>
+        Mehl, Salz und Zucker mischen. Hefe im lauwarmen Wasser auflösen, mit
+        Olivenöl zum Mehl geben und zu einem glatten Teig kneten. Teig abgedeckt
+        45–60 Minuten gehen lassen. Ofen auf 250°C vorheizen. Teig dünn ausrollen,
+        mit passierten Tomaten bestreichen, würzen und mit Mozzarella belegen.
+        8–12 Minuten backen.
+      </p>
+    </div>
+  </section>
+
+  <!-- AUTOR -->
+  <section class="autor-container">
+    <h3>Rezept erstellt von</h3>
+    <div class="autor-inner">
+      <img src="./img/profile.png" alt="Autor" />
+      <p>Etem Sakin</p>
+    </div>
+  </section>
+</main>
+
         <!-- FOOTER -->
      <footer class="footer">
   <div class="footer-inner">
