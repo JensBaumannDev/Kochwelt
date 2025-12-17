@@ -45,6 +45,35 @@ h2 {
   margin: 60px 160px;
 }
 
+.zutaten-portionen {
+  display: flex;
+  align-items: center;
+}
+
+.personen-input {
+  height: 36px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.btn {
+  background-color: #008000;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+  padding: 10px;
+  border: none;
+}
+
+label {
+  padding-right: 16px;
+}
 .zutaten-inner ul {
   list-style-type: none;
   margin: 0;

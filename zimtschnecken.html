@@ -98,17 +98,23 @@
         <!-- ZUTATEN -->
         <section class="zutaten">
           <div class="zutaten-inner">
-            <div class="amount-rechner">
-              <label for="quantity">Zutaten für</label>
+            <div class="zutaten-portionen">
+              <label for="anzhal-personen">Zutaten für</label>
               <input
+                class="personen-input"
                 type="number"
-                id="quantity"
-                name="quantity"
-                min="1"
-                max="20"
+                name="anzhal-personen"
+                placeholder="Anzahl der Personen"
                 value="4"
+                min="0"
+                max="10"
               />
-              <input class="button" type="submit" value="Portionen" />
+              <input
+                type="button"
+                value="Portionen"
+                onclick="berechnePortionen()"
+                class="btn"
+              />
             </div>
 
             <h3>Für den Teig</h3>
@@ -150,17 +156,11 @@
                   class="rezeptvorstellung-icon"
                   alt="Uhr icon"
                 />
-                2 Std. 30 Min.<br>Gesamtzeit
+                2 Std. 30 Min.<br />Gesamtzeit
               </p>
-              <p>
-                30 Min.<br>Arbeitszeit
-              </p>
-              <p>
-                30 Min.<br>Backzeit
-              </p>
-              <p>
-                1 Std. 30 Min.<br>Ruhezeit
-              </p>
+              <p>30 Min.<br />Arbeitszeit</p>
+              <p>30 Min.<br />Backzeit</p>
+              <p>1 Std. 30 Min.<br />Ruhezeit</p>
             </div>
 
             <ol>
@@ -207,7 +207,7 @@
           <div class="autor-inner">
             <h3>Rezept erstellt von</h3>
             <div class="autor-container">
-              <img src="/img/profile.png" alt="Foto von Julia Keller">
+              <img src="/img/profile.png" alt="Foto von Julia Keller" />
               <p>Julia Keller</p>
             </div>
           </div>
