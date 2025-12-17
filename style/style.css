@@ -79,6 +79,9 @@ nav {
   border-bottom: 4px solid #008000;
 }
 
+.hauptmenu li {
+    margin-bottom: 0px;
+}
 li a.link-active {
   border-bottom: 4px solid #008000;
 }
@@ -308,6 +311,16 @@ button {
   padding: 12px 64px;
   display: flex;
   align-items: center;
+}
+.footer-logo .logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 16px;
+  border-radius: 8px;
+
+  cursor: pointer;
 }
 
 .footer-logo img {
