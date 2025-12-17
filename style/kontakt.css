@@ -57,4 +57,25 @@ textarea{
 }
 
     
+.popup-kontakt{
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-direction: column;
+}
 
+.popup-btn {
+  background-color: #008000;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  text-decoration: none;
+
+}
