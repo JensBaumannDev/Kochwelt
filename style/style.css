@@ -74,6 +74,9 @@ nav {
   border-bottom: 4px solid #008000;
 }
 
+.hauptmenu li {
+    margin-bottom: 0px;
+}
 li a.link-active {
   border-bottom: 4px solid #008000;
 }
