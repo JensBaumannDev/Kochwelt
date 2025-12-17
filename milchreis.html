@@ -13,166 +13,205 @@
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="shortcut icon" href="./img/logo_small.png" />
     <link rel="stylesheet" href="./style/ham-menu.css" />
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="stylesheet" href="style/milchreis.css">
+    <link rel="stylesheet" href="style/responsive.css" />
+    <link rel="stylesheet" href="style/paprikagulasch.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
   </head>
   <body>
-<div class="content">
-    <!-- HERO SECTION -->
-    <header>
-      <div class="header-inner">
-        <a href="./index.html" class="logo-link">
-          <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
-        </a>
-        <nav class="hauptmenu">
-          <ul>
-            <li><a href="./index.html">Start</a></li>
-            <li><a href="./paprikagulasch.html">Rezept des Tages</a></li>
-            <li><a href="./kontakt.html">Kontakt</a></li>
-            <li><a href="./impressum.html">Impressum</a></li>
-          </ul>
-        </nav>
-      
-        <div class="off-screen-menu">
-          <ul>
-            <li><a href="./index.html">Start</a></li>
-            <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
-            <li><a href="./kontakt.html">Kontakt</a></li>
-            <li><a href="./impressum.html">Impressum</a></li>
-          </ul>
-        </div>
-        <nav class="ham-menu-nav">
-          <div class="ham-menu">
-            <span></span>
-            <span></span>   
-            <span></span>
+    <div class="content">
+      <!-- HERO SECTION -->
+      <header>
+        <div class="header-inner">
+          <a href="./index.html" class="logo-link">
+            <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
+          </a>
+          <nav class="hauptmenu">
+            <ul>
+              <li><a href="./index.html">Start</a></li>
+              <li><a href="./paprikagulasch.html">Rezept des Tages</a></li>
+              <li><a href="./kontakt.html">Kontakt</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
+          </nav>
+
+          <div class="off-screen-menu">
+            <ul>
+              <li><a href="./index.html">Start</a></li>
+              <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
+              <li><a href="./kontakt.html">Kontakt</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
           </div>
-        </nav>
-      </div>
-    <script>
-      const hamMenu = document.querySelector(".ham-menu");
-      const offScreenMenu = document.querySelector(".off-screen-menu");
-      hamMenu.addEventListener("click", () => {
-        hamMenu.classList.toggle("active");
-        offScreenMenu.classList.toggle("active");
-      });
-    </script>
-    </header>
-    <main class="rezept">
-      <!-- REZEPTVORSTELLUNG -->
-      <section class="rezeptvorstellung">
-
-       <section class="recipe-header">
-        <h1>Milchreis</h1>
-        <div class="recipe-img">
-          <img src="img/milchreis.jpg" alt="milchreis">
+          <nav class="ham-menu-nav">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
         </div>
-       <div class="recipe-icons">
-         <span class="time-icons"><img src="img/icons/clock-regular.svg" alt="uhr">45min</span>
-         <span class="time-icons"><img src="img/icons/brain-solid.svg" alt="">normal</span>
-         <span class="time-icons"><img src="img/icons/calendar-alt-regular.svg" alt="">16.12.2025</span>
-       </div>
-      </section>
-
-      <div class="recipe-portions">
-      <span>Zutaten für</span>
-      <input type="number" value="4" class="recipe-portions-value">
-      <input type="submit" class="btn" value="Portion">
-      </div>
-
-      <section class="recipe-table">
-        <table class="recipe-list">
-        <tr class="td-background">
-          <td>500 ml Milch</td>
-        </tr>
-
-        <tr>
-          <td>125 g Milchreis</td>
-        </tr>
-
-        <tr class="td-background">
-          <td> 1 Prise(n) Salz</td>
-        </tr>
-
-        <tr>
-          <td>2 Ei(er) getrennt</td>
-        </tr>
-
-        <tr class="td-background">
-          <td>1 TL Zucker</td>
-        </tr>
-
-        <tr>
-          <td>1 TL Zimt</td>
-        </tr>
-
-        <tr class="td-background">
-          <td>Apfelmus</td>
-        </tr>
-        </table>
-
-      </section>
-
-
-        <section class="recipe-bottom">
-        <h2>Zubereitung</h2>
-        <div class="recipe-icons">
-         <span class="time-icons"><img src="img/icons/clock-regular.svg" alt="uhr">ca. 45 Minuten</span>
-         <span class="time-icons"><img src="img/icons/clock-regular.svg" alt="">gesamtzeit ca. 45 min</span>
-       </div>
-      <p><strong>1.</strong>
+        <script>
+          const hamMenu = document.querySelector(".ham-menu");
+          const offScreenMenu = document.querySelector(".off-screen-menu");
+          hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+          });
+        </script>
+      </header>
+      <main class="full-content-container">
+        <!-- REZEPTVORSTELLUNG -->
+        <section class="rezeptvorstellung-container">
+          <div class="rezeptvorstellung-inner">
+            <div class="rezeptvorstellung-top">
+              <h1>Saftiges Paprikagulasch</h1>
+              <img src="./img/milchreis.jpg" alt="" />
+            </div>
+            <div class="rezeptvorstellung-information">
+              <div class="rezeptvorstellung-information-inner">
+                <img src="./img/icons/clock-regular.svg" alt="Bild einer Uhr" />
+                <p>45min</p>
+              </div>
+              <div class="rezeptvorstellung-information-inner">
+                <img
+                  src="./img/icons/brain-solid.svg"
+                  alt="Darstellung Schwierigkeit"
+                />
+                <p>normal</p>
+              </div>
+              <div class="rezeptvorstellung-information-inner">
+                <img
+                  src="./img/icons/calendar-alt-regular.svg"
+                  alt="Bild einer Uhr"
+                />
+                <p>16.12.2025</p>
+              </div>
+            </div>
+            <div class="rezeptvorstellung-line"></div>
+          </div>
+        </section>
+        <!-- ZUTATEN -->
+         <section></section>
+        <section class="zutaten-container">
+          <div class="zutaten-portionen">
+            <label for="anzhal-personen">Zutaten für</label>
+            <input
+              class="personen-input"
+              type="number"
+              name="anzhal-personen"
+              placeholder="Anzahl der Personen"
+              value="4"
+              min="0"
+              max="10"
+            />
+            <input
+              type="button"
+              value="Portionen"
+              onclick="berechnePortionen()"
+              class="btn"
+            />
+          </div>
+          <div class="zutaten-liste-container">
+            <div class="zutaten-list">
+              <ul>
+                <li>500 ml Milch</li>
+                <li>125 g Milchreis</li>
+                <li>2 Ei(er) getrennt</li>
+                <li>1 TL Zucker</li>
+                <li>1 TL Zimt</li>
+                <li>1 Apfelmus</li>
+          
+              </ul>
+            </div>
+          </div>
+        </section>
+        </section>
+        <!-- ZUBEREITUNG -->
+        <section class="zubereitung-container">
+          <h2>Zubereitung</h2>
+          <div class="zubereitung-information">
+            <div class="zubereitung-information-inner">
+              <img src="./img/icons/clock-regular.svg" alt="Bild einer Uhr" />
+              <p>ca. 45 Min</p>
+            </div>
+            <div class="zubereitung-information-inner">
+              <img
+                src="./img/icons/clock-regular.svg"
+                alt="Darstellung Schwierigkeit"
+              />
+              <p>ca. 45 Min. Gesamtzeit</p>
+            </div>
+          </div>
+          <div class="zubereitung-text">
+            <p>
+           <strong>1.</strong>
          Die Milch mit dem Reis und der Prise Salz unter ständigem Rühren aufkochen lassen und anschließend bei kleiner Flamme so lange garen, bis der Reis weich ist.
          In der Zwischenzeit das Eiweiß zu Eischnee schlagen. <br>
          <br>
         <strong>2.</strong>
         Unter den fertigen Milchreis erst das Eigelb und anschließend das Eiweiß unterheben.
-        Mit Zucker, Zimt und Apfelmus anrichten.</p>
-      </section>
-      <section class="recipe-created-by">
-      <h3>Rezept erstellt von</h3>
-      <div class="profile">
-        <img src="img/WIN_20251128_12_51_46_Pro.jpg" alt="Mario">
-        <span>Mario Ramirez</span>
-      </div>
-      </section>
-      
-      
-      </section>
-    </main>
-        <!-- FOOTER -->
-     <footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-logo">
-        <a href="./index.html" class="logo-link">
-          <img class="logo" src="./img/logo.png" alt="Kochwelt Logo" />
-        </a>
-      </div>
-      <div class="footer-socials">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <img src="./img/facebook-logo.png" alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <img src="./img/instagram-logo.png" alt="Instagram" />
-        </a>
-        <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
-          <img src="./img/pinterest-logo.png" alt="Pinterest" />
-        </a>
-      </div>
-      <nav class="footer-nav" aria-label="Footer Navigation">
-        <ul>
-          <li><a href="./kontakt.html">Kontakt</a></li>
-          <li><a href="./impressum.html">Impressum</a></li>
-          <li><a href="./datenschutz.html">Datenschutz</a></li>
-        </ul>
-      </nav>
+        Mit Zucker, Zimt und Apfelmus anrichten.
+            </p>
+          </div>
+        </section>
+        <!-- AUTOR -->
+        <section class="autor-container">
+          <h3>Rezept erstellt von</h3>
+          <div class="autor-inner">
+            <img src="./img/WIN_20251128_12_51_46_Pro.jpg" alt="Bild vom Autor">
+            <p>Mario</p>
+          </div>
+        </section>
+      </main>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <a href="./index.html" class="logo-link">
+                <img src="./img/logo.png" alt="Kochwelt Logo" />
+              </a>
+            </div>
+            <div class="footer-socials">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <img src="./img/facebook-logo.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <img src="./img/instagram-logo.png" alt="Instagram" />
+              </a>
+              <a
+                href="https://www.pinterest.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Pinterest"
+              >
+                <img src="./img/pinterest-logo.png" alt="Pinterest" />
+              </a>
+            </div>
+            <nav class="footer-nav" aria-label="Footer Navigation">
+              <ul>
+                <li><a href="./kontakt.html">Kontakt</a></li>
+                <li><a href="./impressum.html">Impressum</a></li>
+                <li><a href="./datenschutz.html">Datenschutz</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-divider"></div>
+          <div class="footer-bottom">
+            <p>© 2025 Kochwelt • Alle Rechte vorbehalten</p>
+          </div>
+        </div>
+      </footer>
     </div>
-    <div class="footer-divider"></div>
-    <div class="footer-bottom">
-      <p>© 2025 Kochwelt • Alle Rechte vorbehalten</p>
-    </div>
-  </div>
-</footer>
-</div>
   </body>
 </html>
