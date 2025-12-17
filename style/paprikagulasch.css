@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .rezeptvorstellung-inner {
@@ -82,6 +84,8 @@
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 16px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .zutaten-portionen {
@@ -113,7 +117,7 @@
 label {
   padding-right: 16px;
 }
-
+/* Zutaten */
 .zutaten-liste-container {
   max-width: 1440px;
   width: 100%;
@@ -154,6 +158,8 @@ label {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 16px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .zubereitung-container h2 {
@@ -165,7 +171,7 @@ label {
   margin: 0;
   padding-top: 40px;
 }
-
+/* Autor */
 .autor-container {
   max-width: 1440px;
   width: 100%;
@@ -174,6 +180,8 @@ label {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 24px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .autor-container h3 {
@@ -181,21 +189,21 @@ label {
   font-size: 20px;
 }
 
-.autor-inner{
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
+.autor-inner {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
-.autor-inner img{
-    height: 80px;
-    width: 80px;
-    border-radius: 360px;
-    object-fit: cover;
+.autor-inner img {
+  height: 80px;
+  width: 80px;
+  border-radius: 360px;
+  object-fit: cover;
 }
 
-.autor-inner p{
-    font-size: 32px;
-    margin-left: 32px;
+.autor-inner p {
+  font-size: 32px;
+  margin-left: 32px;
 }
