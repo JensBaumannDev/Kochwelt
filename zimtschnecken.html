@@ -11,10 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./img/logo_small.png" />
     <link rel="stylesheet" href="./style/ham-menu.css" />
     <link rel="stylesheet" href="style/responsive.css" />
-    <link rel="stylesheet" href="style/zimtschnecken.css" />
-    <link rel="shortcut icon" href="./img/logo_small.png" />
+    <link rel="stylesheet" href="style/paprikagulasch.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
   </head>
   <body>
     <div class="content">
@@ -27,7 +28,7 @@
           <nav class="hauptmenu">
             <ul>
               <li><a href="./index.html">Start</a></li>
-              <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
+              <li><a href="./paprikagulasch.html">Rezept des Tages</a></li>
               <li><a href="./kontakt.html">Kontakt</a></li>
               <li><a href="./impressum.html">Impressum</a></li>
             </ul>
@@ -36,7 +37,7 @@
           <div class="off-screen-menu">
             <ul>
               <li><a href="./index.html">Start</a></li>
-              <li><a href="./paprikagulasch.html">Rezept des Tages</a></li>
+              <li><a href="./rezeptdestages.html">Rezept des Tages</a></li>
               <li><a href="./kontakt.html">Kontakt</a></li>
               <li><a href="./impressum.html">Impressum</a></li>
             </ul>
@@ -58,158 +59,135 @@
           });
         </script>
       </header>
-      <main>
+      <main class="full-content-container">
         <!-- REZEPTVORSTELLUNG -->
-        <section class="rezeptvorstellung">
+        <section class="rezeptvorstellung-container">
           <div class="rezeptvorstellung-inner">
-            <h1>Zimtschnecken</h1>
-            <img
-              src="./img/zimtschnecken.jpg"
-              alt="Zimtschnecken mit Frischkäse-Glasur"
-            />
-            <div class="rezept-merkmale">
-              <p>
-                <img
-                  src="./img/icons/clock-regular.svg"
-                  class="rezeptvorstellung-icon"
-                  alt="Uhr icon"
-                />
-                2 Std. 30 Min.
-              </p>
-              <p>
+            <div class="rezeptvorstellung-top">
+              <h1>Saftiges Paprikagulasch</h1>
+              <img src="./img/zimtschnecken.jpg" alt="" />
+            </div>
+            <div class="rezeptvorstellung-information">
+              <div class="rezeptvorstellung-information-inner">
+                <img src="./img/icons/clock-regular.svg" alt="Bild einer Uhr" />
+                <p>2 Std. 30 Min</p>
+              </div>
+              <div class="rezeptvorstellung-information-inner">
                 <img
                   src="./img/icons/brain-solid.svg"
-                  class="rezeptvorstellung-icon"
-                  alt="Uhr icon"
+                  alt="Darstellung Schwierigkeit"
                 />
-                einfach
-              </p>
-              <p>
+                <p>normal</p>
+              </div>
+              <div class="rezeptvorstellung-information-inner">
                 <img
                   src="./img/icons/calendar-alt-regular.svg"
-                  class="rezeptvorstellung-icon"
-                  alt="Uhr icon"
+                  alt="Bild einer Uhr"
                 />
-                16.12.2025
-              </p>
+                <p>16.12.2025</p>
+              </div>
             </div>
+            <div class="rezeptvorstellung-line"></div>
           </div>
         </section>
         <!-- ZUTATEN -->
-        <section class="zutaten">
-          <div class="zutaten-inner">
-            <div class="zutaten-portionen">
-              <label for="anzhal-personen">Zutaten für</label>
-              <input
-                class="personen-input"
-                type="number"
-                name="anzhal-personen"
-                placeholder="Anzahl der Personen"
-                value="4"
-                min="0"
-                max="10"
-              />
-              <input
-                type="button"
-                value="Portionen"
-                onclick="berechnePortionen()"
-                class="btn"
-              />
+         <section></section>
+        <section class="zutaten-container">
+          <div class="zutaten-portionen">
+            <label for="anzhal-personen">Zutaten für</label>
+            <input
+              class="personen-input"
+              type="number"
+              name="anzhal-personen"
+              placeholder="Anzahl der Personen"
+              value="4"
+              min="0"
+              max="10"
+            />
+            <input
+              type="button"
+              value="Portionen"
+              onclick="berechnePortionen()"
+              class="btn"
+            />
+          </div>
+          <div class="zutaten-liste-container">
+            <div class="zutaten-list">
+              <h3>Für den Teig:</h3>
+              <ul>
+                <li>800 ml Milch</li>
+                <li>200 g Butter</li>
+                <li>1800 g Mehl</li>
+                <li>2 TL Salz</li>
+                <li>280 g Zucker</li>
+                <li>4 Eier</li>
+                <li>4 Würfel Frischhefe</li>
+                <li>500 ml Rinderbrühe</li>
+                <li>Fett für die Form</li>
+              </ul>
+              <h3>Für die Füllung:</h3>
+              <ul>
+                <li>200 g Butter, weiche</li>
+                <li>520 g Zucker, brauner</li>
+                <li>8 TL Zimt</li>
+              </ul>
+              <h3>Für die Glasur:</h3>
+              <ul>
+                <li>400 g Frischkäse</li>
+                <li>120 g Butter</li>
+                <li>400 g Puderzucker</li>
+                <li>16 Tropfen Vanillearoma</li>
+              </ul>
             </div>
-
-            <h3>Für den Teig</h3>
-            <ul>
-              <li>800 ml Milch</li>
-              <li>200 g Butter</li>
-              <li>1800 g Mehl</li>
-              <li>2 TL Salz</li>
-              <li>280 g Zucker</li>
-              <li>4 Eier</li>
-              <li>4 Würfel Frischhefe</li>
-              <li>Fett für die Form</li>
-            </ul>
-
-            <h3>Für die Füllung</h3>
-            <ul>
-              <li>200 g weiches Butter</li>
-              <li>520 g Zucker</li>
-              <li>8 TL Zimt</li>
-            </ul>
-
-            <h3>Für die Frischkäse-Glasur</h3>
-            <ul>
-              <li>400 g Frischkäse</li>
-              <li>120 g Butter</li>
-              <li>400 g Puderzucker</li>
-              <li>16 Tropfen Vanillearoma</li>
-            </ul>
           </div>
         </section>
+        </section>
         <!-- ZUBEREITUNG -->
-        <section class="zubereitung">
-          <div class="zubereitung-inner">
-            <h2>Zubereitung</h2>
-            <div class="rezept-merkmale">
-              <p>
-                <img
-                  src="./img/icons/clock-regular.svg"
-                  class="rezeptvorstellung-icon"
-                  alt="Uhr icon"
-                />
-                2 Std. 30 Min.<br />Gesamtzeit
-              </p>
-              <p>30 Min.<br />Arbeitszeit</p>
-              <p>30 Min.<br />Backzeit</p>
-              <p>1 Std. 30 Min.<br />Ruhezeit</p>
+        <section class="zubereitung-container">
+          <h2>Zubereitung</h2>
+          <div class="zubereitung-information">
+            <div class="zubereitung-information-inner">
+              <img src="./img/icons/clock-regular.svg" alt="Bild einer Uhr" />
+              <p>2 Std. 30 Min. Gesamtzeit</p>
             </div>
-
-            <ol>
-              <li>
-                Milch und Butter kurz erwärmen, bis die Butter geschmolzen ist.
-                Zunächst 450 g Mehl, Salz, Zucker und Ei in eine Schüssel geben.
-                Eine Mulde in das Mehl drücken und die Hefe hineinbröseln. Die
-                Milch hineingießen und alles von der Mulde aus nach außen zu
-                einem glatten Teig verkneten. Wenn der Teig noch zu klebrig ist,
-                nach und nach nur so viel Mehl hinzugeben, bis er sich gut
-                verarbeiten lässt. Zugedeckt an einem warmen Ort 1 Stunde gehen
-                lassen.
-              </li>
-              <li>
-                Den Teig rechteckig ausrollen und mit der Butter bestreichen.
-                Zucker und Zimt mischen und darüber streuen, keinen Rand lassen.
-                Von der langen Seite her aufrollen und in 2 - 3 cm dicke
-                Scheiben schneiden. Mit der Schnittfläche nach unten in eine
-                gefettete Form (z. B. eine Auflaufform) setzen und zugedeckt
-                weitere 30 Minuten gehen lassen.
-              </li>
-              <li>
-                Alle Zutaten für die Glasur verrühren. Wenn sie etwas zu
-                dicklich erscheint, ein wenig Milch hinzugeben - sie sollte aber
-                auf keinen Fall zu flüssig werden. Natürlich kann man nach
-                Belieben auch eine normale Glasur aus Milch und Puderzucker
-                zubereiten, diese hier verleiht dem Rezept aber einen besonderen
-                Kick.
-              </li>
-              <li>
-                Die Rollen im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze
-                ca. 15 - 20 backen. Die Glasur auf den warmen Rollen verteilen
-                und servieren.
-              </li>
-              <li>
-                Mir persönlich schmecken sie am besten noch warm, man kann sie
-                aber auch gut kalt essen.
-              </li>
-            </ol>
+            <div class="zubereitung-information-inner">
+              <img
+                src="./img/icons/clock-regular.svg"
+                alt="Darstellung Schwierigkeit"
+              />
+              <p>30 Min. Arbeitszeit</p>
+            </div>
+            <div class="zubereitung-information-inner">
+              <img
+                src="./img/icons/clock-regular.svg"
+                alt="Darstellung Schwierigkeit"
+              />
+              <p>30 Min. Backzeit</p>
+            </div>
+            <div class="zubereitung-information-inner">
+              <img
+                src="./img/icons/clock-regular.svg"
+                alt="Darstellung Schwierigkeit"
+              />
+              <p>1 Std. 30 Min. Ruhezeit</p>
+            </div>
+          </div>
+          <div class="zubereitung-text">
+            <p>
+              1. Milch und Butter kurz erwärmen, bis die Butter geschmolzen ist. Zunächst 450 g Mehl, Salz, Zucker und Ei in eine Schüssel geben. Eine Mulde in das Mehl drücken und die Hefe hineinbröseln. Die Milch hineingießen und alles von der Mulde aus nach außen zu einem glatten Teig verkneten. Wenn der Teig noch zu klebrig ist, nach und nach nur so viel Mehl hinzugeben, bis er sich gut verarbeiten lässt. Zugedeckt an einem warmen Ort 1 Stunde gehen lassen. <br>
+              2. Den Teig rechteckig ausrollen und mit der Butter bestreichen. Zucker und Zimt mischen und darüber streuen, keinen Rand lassen. Von der langen Seite her aufrollen und in 2 - 3 cm dicke Scheiben schneiden. Mit der Schnittfläche nach unten in eine gefettete Form (z. B. eine Auflaufform) setzen und zugedeckt weitere 30 Minuten gehen lassen. <br>
+              3. Alle Zutaten für die Glasur verrühren. Wenn sie etwas zu dicklich erscheint, ein wenig Milch hinzugeben - sie sollte aber auf keinen Fall zu flüssig werden. Natürlich kann man nach Belieben auch eine normale Glasur aus Milch und Puderzucker zubereiten, diese hier verleiht dem Rezept aber einen besonderen Kick. <br>
+              4. Die Rollen im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze ca. 15 - 20 backen. Die Glasur auf den warmen Rollen verteilen und servieren. <br>
+              5. Mir persönlich schmecken sie am besten noch warm, man kann sie aber auch gut kalt essen.
+</p>
           </div>
         </section>
         <!-- AUTOR -->
-        <section class="autor">
+        <section class="autor-container">
+          <h3>Rezept erstellt von</h3>
           <div class="autor-inner">
-            <h3>Rezept erstellt von</h3>
-            <div class="autor-container">
-              <img src="/img/profile.png" alt="Foto von Julia Keller" />
-              <p>Julia Keller</p>
-            </div>
+            <img src="./img/julia.jpg" alt="Bild vom Autor">
+            <p>Julia</p>
           </div>
         </section>
       </main>
